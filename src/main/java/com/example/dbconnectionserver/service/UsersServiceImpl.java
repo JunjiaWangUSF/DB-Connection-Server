@@ -1,5 +1,8 @@
 package com.example.dbconnectionserver.service;
 
+import com.example.dbconnectionserver.data.UserEntity;
+import com.example.dbconnectionserver.data.UsersRepository;
+import com.example.dbconnectionserver.response.UserRest;
 import org.springframework.beans.BeanUtils;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;

@@ -1,5 +1,8 @@
 package com.example.dbconnectionserver.controllers;
 
+import com.example.dbconnectionserver.response.UserRest;
+import com.example.dbconnectionserver.response.VerifyPasswordResponse;
+import com.example.dbconnectionserver.service.UsersService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.beans.factory.annotation.Autowired;
